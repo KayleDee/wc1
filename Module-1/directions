@@ -1,0 +1,9 @@
+Open your terminal or command prompt.
+Clone the project from above using git clone.
+Remove '.git' folder from 'slideshow_' (cd slideshow_; rm -rf .git)
+Initialize the  project using git init
+Add all the files
+Make an initial commit with the message “initial commit”.
+Create a folder for all of your Git projects and create a bare repository called 'slideshow.git'  (~/folder, cd ~/folder, git clone --bare)
+Create first working copy of 'slideshow.git', name it 'wc1'  (git clone)
+Check status in both repos, 'wc1' and 'slideshow.git', and analyze messages - what can you tell? (git status, ls)
